@@ -65,7 +65,7 @@ import com.kerence.rctamap.AMapPackage;
 import AMapView from 'react-native-amap-3d'
 
   render(){
-    return (<View style={{flex: 1, backgroundColor: '#f00'}}>
+    return (<View style={{flex: 1}}>
       <AMapView initialRegion={{latitude: 31.192199, longitude: 121.503628}} showsUserLocation/>
     </View>);
   }
