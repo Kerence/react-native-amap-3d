@@ -13,7 +13,7 @@ React Native AMap3d component for iOS + Android
 `npm install react-native-amap-3d --save`
 
 ### iOS
-Only test on react-native 0.29
+Only test on react-native 0.40
 * `Add Files to "xxx"` on `Libaries` folder, and select `RCTAMap.xcodeproj`
 * In `Link Binary With Libraries`, add `libRCTAMap.a`
 * In `Link Binary With Libraries`, add `MAMapKit.framework` and `AMapSearchKit.framework`
@@ -33,11 +33,11 @@ project(':react-native-amap-view').projectDir = new File(rootProject.projectDir,
 ```
 * `android/app/build.gradle`:
 ```
-    compile project(":react-native-amap-view")
+    compile project(":react-native-amap-3d")
 ```
 * `MainApplication.java`:
 ```
-import com.dianwoba.rctamap.AMapPackage;
+import com.kerence.rctamap.AMapPackage;
       
       return Arrays.<ReactPackage>asList(
           ...
@@ -56,7 +56,7 @@ import com.dianwoba.rctamap.AMapPackage;
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
 
     <application ...>
-      <meta-data android:name="com.amap.api.v2.apikey" android:value="cc5fea37cc1d8bd20434a0020d85ec12"></meta-data>
+      <meta-data android:name="com.amap.api.v2.apikey" android:value="6f57512083ba84bc3353a42d533a48a1"></meta-data>
 
 ```
 
@@ -66,9 +66,7 @@ import AMapView from 'react-native-amap-view'
 
   render(){
     return (<View style={{flex: 1, backgroundColor: '#f00'}}>
-      <AMapView initialRegion={{latitude: 30.315888, longitude: 120.165817}} showsUserLocation>
-        <AMapView.Marker pinColor="green" draggable title='xxx' description="这是一个好地方" coordinate={{latitude: 30.315888, longitude: 120.165817}} />
-      </AMapView>
+      <AMapView initialRegion={{latitude: 31.192199, longitude: 121.503628}} showsUserLocation/>
     </View>);
   }
 ```
