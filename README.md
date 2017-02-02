@@ -17,7 +17,7 @@ Only test on react-native 0.40
 * `Add Files to "xxx"` on `Libaries` folder, and select `RCTAMap.xcodeproj`
 * In `Link Binary With Libraries`, add `libRCTAMap.a`
 * In `Link Binary With Libraries`, add `MAMapKit.framework` and `AMapSearchKit.framework`
-* In `Framework Search Paths`, add `$(PROJECT_DIR)/../node_modules/react-native-amap-view/ios`
+* In `Framework Search Paths`, add `$(PROJECT_DIR)/../node_modules/react-native-amap-3d/ios`
 * `Add Files to "xxx"` on your project, and select `AMap.bundle`
 * In `Link Binary With Libraries`, add other libs, see [here](http://lbs.amap.com/api/ios-sdk/guide/create-project/manual-configuration/#t3)
 * Make sure `NSAllowsArbitraryLoads` in `Info.plist` is `true`
@@ -28,8 +28,8 @@ Only test on react-native 0.40
 ### Android
 * `android/setting.gradle`:
 ```
-include ':react-native-amap-view'
-project(':react-native-amap-view').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-amap-view/android')
+include ':react-native-amap-3d'
+project(':react-native-amap-3d').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-amap-3d/android')
 ```
 * `android/app/build.gradle`:
 ```
@@ -62,7 +62,7 @@ import com.kerence.rctamap.AMapPackage;
 
 ## Usage
 ```
-import AMapView from 'react-native-amap-view'
+import AMapView from 'react-native-amap-3d'
 
   render(){
     return (<View style={{flex: 1, backgroundColor: '#f00'}}>
