@@ -10,9 +10,8 @@ React Native AMap3d component for iOS + Android
 
 ### Installation
 
-`npm install react-native-amap-view --save`
+`npm install react-native-amap-3d --save`
 
 ### Docs
 
-内部使用阶段，迭代稳定后会补充文档
-"# react-native-amap-3d" 
+ 
