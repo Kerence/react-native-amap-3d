@@ -14,7 +14,7 @@ this library utilizes https://github.com/dwd-fe/react-native-amap and ports to t
 `npm install react-native-amap-3d --save`
 
 ### iOS
-Only test on react-native 0.40
+Only test on react-native 0.20
 * `Add Files to "xxx"` on `Libaries` folder, and select `RCTAMap.xcodeproj`
 * In `Link Binary With Libraries`, add `libRCTAMap.a`
 * In `Link Binary With Libraries`, add `MAMapKit.framework` and `AMapSearchKit.framework`
