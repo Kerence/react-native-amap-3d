@@ -1,0 +1,25 @@
+{
+  "name": "react-native-amap-3d",
+  "version": "0.5.0",
+  "description": "React Native AMap 3D component for iOS + Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerence/react-native-amap-3d.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "amap",
+    "3d"
+  ],
+  "author": "kerence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kerence/react-native-amap-3d/issues"
+  },
+  "homepage": "https://github.com/Kerence/react-native-amap-3d#readme"
+}
