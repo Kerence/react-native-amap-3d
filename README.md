@@ -1,11 +1,12 @@
-# react-native-amap
-React Native AMap component for iOS + Android
+# react-native-amap-3d
+React Native AMap3d component for iOS + Android
 
-### react-native-amap-view is a wrapper of AMap's Libraries inspired by react-native-maps and it's usable in Android and iOS
+### react-native-amap-3d is a wrapper of AMap's Libraries inspired by react-native-maps and it's usable in Android and iOS
 
 ###Demo
 
-![demo-gif](https://raw.githubusercontent.com/dianwoba/react-native-amap/master/doc/assets/demo.gif)
+![demo-gif](https://github.com/Kerence/react-native-amap-3d/blob/master/ios_amap_3d.gif)
+![demo-gif](https://github.com/Kerence/react-native-amap-3d/blob/master/amap-3d-android.gif)
 
 ### Installation
 
