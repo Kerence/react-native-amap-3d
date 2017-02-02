@@ -2,7 +2,7 @@
 React Native AMap3d component for iOS + Android
 
 ### react-native-amap-3d is a wrapper of AMap 3d's Libraries inspired by react-native-maps and it's usable in Android and iOS
-this library utilized https://github.com/dwd-fe/react-native-amap and port to the 3d version of amap which have better visual effect than that of 2d
+this library utilizes https://github.com/dwd-fe/react-native-amap and ports to the 3d version of amap which have better visual effect than that of 2d
 
 ###Demo
 
